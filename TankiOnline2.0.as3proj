@@ -5,13 +5,13 @@
     <movie outputType="Application" />
     <movie input="" />
     <movie path="bin\library-2.0.swf" />
-    <movie fps="60" />
+    <movie fps="100" />
     <movie width="1024" />
     <movie height="768" />
-    <movie version="13" />
+    <movie version="39" />
     <movie minorVersion="0" />
     <movie platform="AIR" />
-    <movie background="#000000" />
+    <movie background="#333333" />
     <movie preferredSDK="C:\air_sdk" />
   </output>
   <!-- Other classes to be compiled into your SWF -->
@@ -72,11 +72,12 @@
   </library>
   <!-- Class files to compile (other referenced classes will automatically be included) -->
   <compileTargets>
-    <compile path="src\Game.as" />
+    <compile path="src\TanksTestingTool.as" />
   </compileTargets>
   <!-- Paths to exclude from the Project Explorer tree -->
   <hiddenPaths>
     <hidden path="obj" />
+    <hidden path="bin\Adobe AIR" />
   </hiddenPaths>
   <!-- Executed before build -->
   <preBuildCommand />
@@ -85,11 +86,11 @@
   <!-- Other project options -->
   <options>
     <option showHiddenPaths="False" />
-    <option testMovie="Custom" />
+    <option testMovie="AIR" />
     <option testMovieCommand="" />
   </options>
   <!-- Plugin storage -->
   <storage>
-    <entry key="air-descriptor"><![CDATA[application.xml]]></entry>
+    <entry key="air-descriptor"><![CDATA[bin\META-INF\AIR\application.xml]]></entry>
   </storage>
 </project>
