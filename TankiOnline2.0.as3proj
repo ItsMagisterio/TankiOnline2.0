@@ -80,9 +80,9 @@
     <hidden path="obj" />
   </hiddenPaths>
   <!-- Executed before build -->
-  <preBuildCommand />
+  <preBuildCommand>if not exist bin mkdir bin</preBuildCommand>
   <!-- Executed after build -->
-  <postBuildCommand alwaysRun="True">if not exist bin mkdir bin &amp; if exist resources\cfg.dxt1.xml copy /Y resources\cfg.dxt1.xml bin\cfg.dxt1.xml &amp; if exist resources\cfg.etc1.xml copy /Y resources\cfg.etc1.xml bin\cfg.etc1.xml &amp; if exist resources\cfg.pvrtc.xml copy /Y resources\cfg.pvrtc.xml bin\cfg.pvrtc.xml &amp; if exist resources\data xcopy /E /I /Y resources\data bin\data</postBuildCommand>
+  <postBuildCommand alwaysRun="True">if exist resources\cfg.dxt1.xml copy /Y resources\cfg.dxt1.xml bin\cfg.dxt1.xml &amp; if exist resources\cfg.etc1.xml copy /Y resources\cfg.etc1.xml bin\cfg.etc1.xml &amp; if exist resources\cfg.pvrtc.xml copy /Y resources\cfg.pvrtc.xml bin\cfg.pvrtc.xml &amp; if exist resources\data xcopy /E /I /Y resources\data bin\data &amp; exit /B 0</postBuildCommand>
   <!-- Other project options -->
   <options>
     <option showHiddenPaths="False" />
