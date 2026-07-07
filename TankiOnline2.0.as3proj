@@ -5,13 +5,13 @@
     <movie outputType="Application" />
     <movie input="" />
     <movie path="bin\library-2.0.swf" />
-    <movie fps="100" />
+    <movie fps="60" />
     <movie width="1024" />
     <movie height="768" />
-    <movie version="39" />
+    <movie version="13" />
     <movie minorVersion="0" />
     <movie platform="AIR" />
-    <movie background="#333333" />
+    <movie background="#000000" />
     <movie preferredSDK="C:\air_sdk" />
   </output>
   <!-- Other classes to be compiled into your SWF -->
