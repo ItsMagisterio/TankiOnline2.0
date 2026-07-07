@@ -91,6 +91,6 @@
   </options>
   <!-- Plugin storage -->
   <storage>
-    <entry key="air-descriptor"><![CDATA[TanksTestingTool-app.xml]]></entry>
+    <entry key="air-descriptor"><![CDATA[application.xml]]></entry>
   </storage>
 </project>
