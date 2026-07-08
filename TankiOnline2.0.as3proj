@@ -72,11 +72,12 @@
   </library>
   <!-- Class files to compile (other referenced classes will automatically be included) -->
   <compileTargets>
-    <compile path="src\Game.as" />
+    <compile path="src\TanksTestingTool.as" />
   </compileTargets>
   <!-- Paths to exclude from the Project Explorer tree -->
   <hiddenPaths>
     <hidden path="obj" />
+    <hidden path="bin\Adobe AIR" />
   </hiddenPaths>
   <!-- Executed before build -->
   <preBuildCommand />
@@ -85,11 +86,11 @@
   <!-- Other project options -->
   <options>
     <option showHiddenPaths="False" />
-    <option testMovie="Custom" />
+    <option testMovie="AIR" />
     <option testMovieCommand="" />
   </options>
   <!-- Plugin storage -->
   <storage>
-    <entry key="air-descriptor"><![CDATA[application.xml]]></entry>
+    <entry key="air-descriptor"><![CDATA[bin\META-INF\AIR\application.xml]]></entry>
   </storage>
 </project>
